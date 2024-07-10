@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://demo11.database.windows.net:1433;database=Demo1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: demo
+    password: First@1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
